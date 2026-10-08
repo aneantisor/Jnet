@@ -1,1 +1,2 @@
-Ajout de la fonction OTA
+ajout gestionnaire système
+OTA + wifi manager + file manager + fonction système (backlight etc ...)
