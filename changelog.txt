@@ -1,1 +1,5 @@
 mise a jour calculatrice
+Ajout mise a jour OTA stm32
+Revue complete de la com inter MCU.
+nettoyage du code
+
