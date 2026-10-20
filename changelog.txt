@@ -1,5 +1,1 @@
-mise a jour calculatrice
-Ajout mise a jour OTA stm32
-Revue complete de la com inter MCU.
-nettoyage du code
-
+ajout RTC via stm32 => mémorisation date et heure appareil éteint. (on alimente seulement VBAT)
