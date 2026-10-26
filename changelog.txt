@@ -1,1 +1,20 @@
-ajout RTC via stm32 => mémorisation date et heure appareil éteint. (on alimente seulement VBAT)
+Feature :
+  - Application JNET fonctionnel
+  - Application SMC600 version alpha à tester
+  - Application Bailey à implémenter
+  - Mise à jour OTA ESP32 et STM32 (avec recherche de mise à jour automatique quotidienne ou manuel)
+  - Gestion WiFi proche d'un usage smartphone
+  - Explorateur de fichier (pour consultation/edition local)
+  - Serveur de fichier wifi (pour consultation/edition depuis un PC) (avec wakelock)
+  - Consultation de fichier texte
+  - Gestion de l'énergie optimisé => durée de mise en veille paramétrable, rétro-éclairage paramétrable, extinction auto.
+  - Calculatrice basique (WIP)
+  - Jeu DOOM fonctionnel et jouable (avec sauvegarde)
+  - gestion heure RTC entièrement automatique avec réglage de l'heure via wifi et serveur NTP
+
+Nouveautés :
+  - Optimisation mémoire RAM
+  - création d'icone pour le menu principale
+  - ajout du mode point d'accès wifi si pas d'AP connu (accès au serveur de fichier)
+  - Allocation LVGL en PSRAM
+  - Allocation TLS en PSRAM
